@@ -1,0 +1,22 @@
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+/* since the element number 3 and 4 share the same font size,
+    I reuse the adjust-font-size class to reduce 
+    duplicate codes */
+
+#four {
+    background-color: lightgreen;
+    font-weight: bold;
+}
